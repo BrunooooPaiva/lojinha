@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    background-color: #1F441E;
+    padding: 2%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 25px;
+}
+
+.cabecalho__menu__links {
+    color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__palavra {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAD6A5;
+    padding: 6.5%;
+    width: 100%;
+    gap: 15px;
+    text-align: center;
+}
+
+.principal__palavra__texto {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #1F441E;
+}
+
+.principal__palavra__paragrafo {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #1F441E;
+}
+
+.principal__mistura {
+    display: flex;
+    gap: 300px;
+    padding: 5%;
+    align-items: center;
+}
+
+.div__palavras {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.principal__mistura__texto {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #1F441E;
+}
+
+.principal__mistura__paragrafo {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #1F441E;
+}
+
+.principal__mistura__imagem {
+    width: 25%;
+}
