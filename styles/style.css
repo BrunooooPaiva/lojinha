@@ -26,6 +26,7 @@ body {
     color: #ffffff;
     font-family: 'Heebo', sans-serif;
     font-size: 25px;
+    text-decoration: none;
 }
 
 .principal {
@@ -38,7 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FAD6A5;
-    padding: 6.5%;
+    padding: 7%;
     width: 100%;
     gap: 15px;
     text-align: center;
@@ -60,8 +61,8 @@ body {
 
 .principal__mistura {
     display: flex;
-    gap: 300px;
-    padding: 5%;
+    gap: 200px;
+    padding: 5% 0% 7% 0%;
     align-items: center;
 }
 
@@ -69,6 +70,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
 }
 
 .principal__mistura__texto {
@@ -87,4 +89,64 @@ body {
 
 .principal__mistura__imagem {
     width: 25%;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F441E;
+    padding: 2%;
+    gap: 30px;
+}
+
+.rodape__texto {
+    color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+}
+
+.rodape__paragrafo {
+    font-family: 'Heebo', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.cabecalho__menu__links:hover {
+    color: #F3DEBA;
+}
+
+.principal__lorem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__lorem__paragrafo {
+    text-align: center;
+    width: 80%;
+    margin: 5%;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #0B4619;
+}
+
+.principal__imagens {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.principal__imagens__imagens {
+    width: 10%;
+    margin: 2%;
 }
